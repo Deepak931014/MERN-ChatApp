@@ -72,7 +72,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-app-rn95.onrender.com",
+    origin: "https://meet-people-chat.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
