@@ -72,7 +72,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://meet-people-chat.netlify.app/",
+    origin: "https://meet-people-chat.netlify.app",
     methods: ["GET", "POST"],
   },
 });
